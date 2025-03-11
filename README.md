@@ -27,6 +27,8 @@ Installation & Setup
 Clone the Repository
 git clone https://github.com/pankajkumar9771369/BookStore.git
 cd Bookstore
+
+
 Setup Backend
 cd backend
 npm install  # Install dependencies
@@ -34,12 +36,17 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 Run the backend:
-npm start
-3️⃣ Setup Frontend
+   npm start
+
+
+ Setup Frontend
 cd ../frontend
 npm install  # Install dependencies
 Run the frontend: 
-npm start
+   npm start
+
+
+   
 API Endpoints (Backend)
 
 Endpoint	Method	Description
